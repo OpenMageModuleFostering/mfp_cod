@@ -1,0 +1,17 @@
+{
+    "name": "OpenMageModuleFostering/Mfp_Cod",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Zipcode based Cash on Delivery payment method at checkout
+",
+    "authors": [
+    {
+        "name": "harpreet",
+        "email": "harpreetsinghphp@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

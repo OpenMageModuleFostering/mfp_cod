@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Mfp_Cod>
+      <version>1.0.0</version>
+    </Mfp_Cod>
+  </modules>
+  <global>
+          <models>
+            <cod>
+                <class>Mfp_Cod_Model</class>
+            </cod>
+        </models>
+
+    <helpers>
+      <cod>
+        <class>Mfp_Cod_Helper</class>
+      </cod>
+    </helpers>
+  </global>
+  	<frontend>
+		<events>
+			<payment_method_is_active>
+				<observers>
+					<paymentfilter_payment_method_is_active>
+						<type>singleton</type>
+						<class>Mfp_Cod_Model_Observer</class>
+						<method>getCashOnDelvery</method>
+					</paymentfilter_payment_method_is_active>
+				</observers>
+			</payment_method_is_active>
+		</events>
+	</frontend>
+</config> 

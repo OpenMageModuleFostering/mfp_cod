@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mfp_Cod</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Zipcode based Cash on Delivery payment method at checkout&#xD;
+</summary>
+    <description>Zipcode based Cash on Delivery payment method at checkout&#xD;
+</description>
+    <notes>Zipcode based Cash on Delivery payment method at checkout&#xD;
+</notes>
+    <authors><author><name>harpreet</name><user>harpreet</user><email>harpreetsinghphp@gmail.com</email></author></authors>
+    <date>2015-10-27</date>
+    <time>15:47:45</time>
+    <contents><target name="magecommunity"><dir name="Mfp"><dir name="Cod"><dir name="Helper"><file name="Data.php" hash="527a41a2cd6d55794045eb72e0de5b6d"/></dir><dir name="Model"><file name="Observer.php" hash="87d7f78a6aee69c93eeaa67d843973a7"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8a25ac338a12c60a4ad0db1cb0b7395f"/><file name="config.xml" hash="1691c51e9b9afd6056a723f26b84a818"/><file name="system.xml" hash="59cae795369d4b2ba5fe4878ce402ef5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mfp_Cod.xml" hash="a9b8f5e99c69ea35b219d201fce95fb3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

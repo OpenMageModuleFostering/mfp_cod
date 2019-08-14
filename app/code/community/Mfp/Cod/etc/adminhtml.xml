@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Ecommerce Approch Team
+ * @copyright Copyright (c) 2015 Ecommerce Approch (http://www.ecommerceapproach.com/)
+ * @package Ecommerceapp_Cashdelivery
+ */
+-->
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<cod translate="title">
+										<title>Cashondelivery by Zipcopde</title>
+									</cod>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>
